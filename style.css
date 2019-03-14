@@ -1,0 +1,179 @@
+body{
+        font-family: 'Lato', sans-serif;
+        /*background: url("brick.jpg");*/
+        /*#ffc82461*/
+      }
+      .top-links{
+        display: none;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      nav {
+        background: #e06237;
+      }
+      .icon{
+        color: #e06237;
+      }
+
+      .middleNav{
+        color: white!important;
+        font-weight: bold;
+
+      }
+      .middleNav:hover, .active{
+        color:black!important;
+      }
+      ;
+      #navPhoneNumber {
+        font-size: 1.5rem; 
+        color:black;
+      }
+      
+      .owl-dots {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+      }
+      .owl-theme .owl-dots .owl-dot span {
+        width: 20px;
+        height: 5px
+      }
+      .theDifference{
+        max-width: 100%
+      }
+      .theDifferenceAnchor{
+        color: red;
+        font-weight: 900;
+      }
+      .theDifferenceAnchor:hover{
+        text-decoration: none;
+        color: red;
+      }
+      .card-header{
+        background: repeating-linear-gradient(
+          135deg,
+          #e40404,
+          #e40404 10px,
+          #c50000 10px,
+          #c50000 20px
+        );
+        color: white;
+      }
+
+      .cardContainerFluid{
+        background: #ffc82461;
+      }
+      .helpImgWidth{
+          width: 30%!important;
+        }
+      .card-title{
+        color: red;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.0;
+      }
+      .card{
+        border-radius: 0;
+        border:0;
+      }
+      .card-header:first-child{
+        border-radius: 0;
+        border:0;
+      }
+      .helpButton{
+        color: red;
+        background: white;
+        border: 2px solid red;
+      }
+      .helpButton:hover{
+        color:white;
+        background: red;
+        border:2px solid red;
+      }
+      .topFooter{
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-family:'Open Sans', sans-serif;
+      }
+      .footerRed{
+        color: red;
+      }
+      .footerSlash{
+        color: gray;
+      }
+      .footerButton{
+        background: #dc3545;
+        border:2px solid black;
+        color: black;
+      }
+      .footerButton:hover{
+        background:#191a1b;
+        border: 2px solid white;
+        color: white;
+      }
+      .footerIcons{
+        background: yellow;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+      }
+      .footerIcons:hover{
+        background: #343a40;
+        color: yellow;
+      }
+      /* Medium devices (tablets, 768px and up) */
+      @media (min-width: 768px) {  
+        
+        /*span {font-size: 30px;} */
+        .helpImgWidth{
+          width: 35%;
+        }
+        #EE {
+          font-size: 1.8rem;
+        }
+        #navPhoneNumber{
+          font-size: 1.5rem;
+        }
+        .fa-comments{
+          font-size: 1.6rem;
+        }
+        .middleNav{
+          padding-left: 2.8rem!important;
+          padding-right:2.8rem!important;
+        }
+
+        
+
+      }
+      /* Small devices (landscape phones, 576px and up) */
+      @media screen and (max-width: 768px) {
+        .top-nav-mobile{
+          display: none;
+        }
+        .top-links{
+          display: block;
+        }
+        .differenceParagraph{
+          display: none;
+        }
+        .card {
+          margin: 0 15px;
+          margin-bottom: 2.5rem;
+        }
+        .cardMargin {
+          padding: 0;
+        }
+        .footerSpan{
+          display: block;
+        }
+        .footerSlash{
+          display: none;
+        }
+        .theDifferenceSection{
+        padding: 0 15px!important;
+        }
+        .helpImgWidth{
+          width: 25%!important;
+        }
+      }
